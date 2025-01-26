@@ -1,0 +1,10 @@
+apiVersion: examples.local/v1alpha1
+kind: SimpleSampleClaim
+metadata:
+  name: test-claim2
+  namespace: default
+spec:
+  namespace: default
+  replicas: 3
+  image: nginx:latest
+  configMapData: "This is a test configuration for ConfigMap."
