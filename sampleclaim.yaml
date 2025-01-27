@@ -4,7 +4,6 @@ metadata:
   name: test-claim
   namespace: default
 spec:
-  namespace: default
   replicas: 3
   image: nginx:latest
   configMapData: "This is a test configuration for ConfigMap."
