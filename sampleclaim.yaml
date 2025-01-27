@@ -4,6 +4,6 @@ metadata:
   name: test-claim
   namespace: default
 spec:
-  namespace: test-argo
+  namespace: default
   replicas: 3
   image: nginx:latest
