@@ -1,0 +1,9 @@
+apiVersion: examples.local/v1alpha1
+kind: SimpleSampleClaim
+metadata:
+  name: test-claim-2
+  namespace: test-argo-2
+spec:
+  namespace: test-argo-2
+  replicas: 3
+  image: nginx:latest
